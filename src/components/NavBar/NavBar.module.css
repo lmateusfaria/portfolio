@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poetsen+One&display=swap');
+
+.navbar {
+   display: flex;
+   box-shadow: rgb(0,0,0, .15) 0px -2px 10px 0px; 
+   justify-content: space-between;
+   align-items: center;
+   padding: .5em, .2em;
+   
+}
+
+.brand {
+    font-size: 1.5em;
+    color: rgb(50, 50, 190);
+    margin-left: 0.6em;
+    font-family: "Caprasimo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brand span {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.links_list {
+    display: flex;
+    list-style: none;
+}
+
+.links_list {
+    margin-right: 1em;
+    
+}
+
+.links_list li a {
+    padding: .4em .6em;
+    color: rgb(50, 50, 190);
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.2rem;
+}
+
+.links_list li a :hover {
+    
+    color: red;
+    
+}
+
+.active {
+    background-color: #000;
+    color: #fff
+}
+
